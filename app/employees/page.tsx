@@ -1,4 +1,4 @@
-import EmployeeList from '@/componenets/EmployeeList'
+import EmployeeList from '@/componenets/Employees'
 import React from 'react'
 
 const EmployeePage = () => {

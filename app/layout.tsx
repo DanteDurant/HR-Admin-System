@@ -21,8 +21,11 @@ export default function RootLayout({
     <html lang="en">
       <ThemeRegistry>
         <body className={inter.className}>
+
           <Container sx={{ pt: 2, height: "100vh" }}>
-            <AuthProvider>{children}</AuthProvider>
+            {/* <AuthProvider> */}
+            {children}
+            {/* </AuthProvider> */}
           </Container>
         </body>
       </ThemeRegistry>

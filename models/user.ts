@@ -6,11 +6,23 @@ const userSchema = new Schema(
       type: String,
       required: true,
     },
+    surname: {
+      type: String,
+      required: true,
+    },
+    telephone: {
+      type: Number,
+      required: true,
+    },
     email: {
       type: String,
       required: true,
     },
-    password: {
+    manager: {
+      type: String,
+      required: true,
+    },
+    status: {
       type: String,
       required: true,
     },

@@ -5,7 +5,7 @@ import { FormEvent, useState } from "react";
 import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 
-import { Box, Button, Container, FormControl, IconButton, Input, InputAdornment, InputLabel, TextField, Typography } from '@mui/material'
+import { Box, Button, FormControl, Input, Typography } from '@mui/material'
 
 
 const LoginFrom = () => {
@@ -44,14 +44,14 @@ const LoginFrom = () => {
 
       <form onSubmit={handleSubmit}>
         <Typography variant="h5">Email</Typography>
-        <FormControl fullWidth sx={{ my: 1, px: 1, border: "4px solid black" }} variant="standard">
+        <FormControl fullWidth sx={{ my: 1, border: "4px solid black" }} variant="standard">
           <Input
             onChange={(e) => setEmail(e.target.value)}
             id="username" type='text' />
         </FormControl>
 
         <Typography variant="h5">Password</Typography>
-        <FormControl fullWidth sx={{ my: 1, px: 1, border: "4px solid black" }} variant="standard">
+        <FormControl fullWidth sx={{ my: 1, border: "4px solid black" }} variant="standard">
           <Input
             onChange={(e) => setPassword(e.target.value)}
             id="password"

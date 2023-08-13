@@ -83,56 +83,6 @@ export default function Register() {
             Create / Edit Employee
           </Typography>
 
-          {/* <form onSubmit={handleSubmit} className="flex flex-col gap-3">
-            <input
-              onChange={(e) => setName(e.target.value)}
-              type="text"
-              placeholder="Full Name"
-            />
-            <input
-              onChange={(e) => setSurname(e.target.value)}
-              type="text"
-              placeholder="Surname"
-            />
-            <input
-              onChange={(e) => setTelephone(e.target.value)}
-              type="number"
-              placeholder="Telephone"
-            />
-            <input
-              onChange={(e) => setEmail(e.target.value)}
-              type="text"
-              placeholder="Email"
-            />
-            <input
-              onChange={(e) => setManager(e.target.value)}
-              type="text"
-              placeholder="Manager"
-            />
-            <input
-              onChange={(e) => setStatus(e.target.value)}
-              type="text"
-              placeholder="Status"
-            />
-            <button className="bg-green-600 text-white font-bold cursor-pointer px-6 py-2">
-              Create
-            </button>
-
-            {error && (
-              <div className="bg-red-500 text-white w-fit text-sm py-1 px-3 rounded-md mt-2">
-                {error}
-              </div>
-            )}
-          </form>
-
-        </Box>
-
-
-      </Box>
-    </Box>
-  );
-} */}
-
           <form>
 
             <Stack direction={"row"} justifyContent="space-between">

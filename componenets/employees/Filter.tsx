@@ -87,7 +87,9 @@ const FilterMenu = () => {
               <MenuItem value="">
                 <em>Andrej Karpathy</em>
               </MenuItem>
-              <MenuItem value="Steve bazos">Steve basos</MenuItem>
+              <MenuItem value="Maarten Krüger">Maarten Krüger</MenuItem>
+              <MenuItem value=" Ricardo Ohlssen"> Ricardo Ohlssen</MenuItem>
+              <MenuItem value="Steve bazos">Steve Bazos</MenuItem>
               <MenuItem value="Mark Zuckerberg<">Mark Zuckerberg</MenuItem>
               <MenuItem value="John McCarthy">John McCarthy</MenuItem>
               <MenuItem value="Elon Musk">Elon Musk</MenuItem>

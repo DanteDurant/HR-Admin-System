@@ -4,6 +4,7 @@ import MyTable from './employees/Table';
 import FilterMenu from './employees/Filter';
 import MainHeading from './Heading';
 import MenuNav from './MenuNav';
+import VisualTest from './VisualTest';
 
 
 
